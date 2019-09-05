@@ -1,0 +1,25 @@
+#posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .posts{
+        width: 29%;
+        border: 1px solid #ddd;
+        margin: 15px;
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+        background: greenyellow;
+        position: relative;
+        
+        input{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            right: 5px;
+            top: 5px;
+        }
+    }
+}
